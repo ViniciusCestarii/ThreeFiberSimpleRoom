@@ -59,11 +59,21 @@ export function Cactus() {
 }
 
 export function Yeah() {
-  const { nodes } = useGLTF('/Yeah!.glb')
+  const { nodes } = useGLTF('/Yeah!.glb');
 
-  return <mesh geometry={nodes.Yeah0061.geometry} material={nodes.Yeah0061.material} position={[0.4, 2, -0.5]} scale={0.25}  rotation={[Math.PI / 2, Math.PI, Math.PI]}>
-    <MeshWobbleMaterial factor={0.4} map={nodes.Yeah0061.map} />
-  </mesh>
+  const newColor = '#ff0000'
+
+  return (
+    <mesh
+      geometry={nodes.Yeah0061.geometry}
+      material={nodes.Yeah0061.material}
+      position={[0.4, 2, -0.5]}
+      scale={0.25}
+      rotation={[Math.PI / 2, Math.PI, Math.PI]}
+    >
+      <MeshWobbleMaterial factor={0.4} map={nodes.Yeah0061.map} color={newColor} />
+    </mesh>
+  );
 }
 
 export function Box({ scale = 1, ...props }) {
