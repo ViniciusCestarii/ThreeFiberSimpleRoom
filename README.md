@@ -2,6 +2,11 @@
 
 Welcome to ThreeFiberSimpleRoom, a simple room created with Three.js and Next.js using the ThreeFiber library.
 
+<div align="center">
+  <img src="https://github.com/ViniciusCestarii/ThreeFiberSimpleRoom/assets/124843824/7b6241ad-ffc4-40f3-a05b-b8c2b24b6935" alt="Room Image">
+</div>
+
+
 ## Getting Started
 
 To get started with the development server, follow these steps:
