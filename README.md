@@ -53,11 +53,11 @@ To get started with the development server, follow these steps:
 
 ## Project Structure
 
-- **`app/pages`**: Next.js pages directory.
+- **`/app`**: Next.js pages directory.
 
 - **`/components`**: React components for the Three.js room, and other elements.
 
-- **`/public`**: Static assets like images.
+- **`/public`**: Static assets like images and models.
 
 ## Customize and Extend
 
