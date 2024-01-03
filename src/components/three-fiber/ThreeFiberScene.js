@@ -5,7 +5,7 @@ import { Level, Sudo, Camera, Cactus, Box, Yeah } from '@/components/three-fiber
 
 const ThreeFiberScene = () => {
   return (
-    <Canvas flat>
+    <Canvas flat style={{height: "100vh"}}>
       <CameraControls minPolarAngle={0} maxPolarAngle={Math.PI / 1.6} />
       <ambientLight intensity={Math.PI / 2} />
       <group scale={20} position={[5, -11, -5]}>
